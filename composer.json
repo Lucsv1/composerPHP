@@ -1,0 +1,21 @@
+{
+    "name": "lucsv1/buscador-cursos",
+    "description": "Projeto que busca cursos no site da alura",
+    "type": "library",
+    "license": "Apache",
+    "autoload": {
+        "psr-4": {
+            "Lucsv1\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucas vinicius",
+            "email": "lcasgalindo@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/dom-crawler": "^7.0"
+    }
+}
